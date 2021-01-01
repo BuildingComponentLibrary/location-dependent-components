@@ -1,0 +1,18 @@
+
+OS:Version,
+  {401d26da-c369-4e49-ade9-181f3ad3a554}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:Site:WaterMainsTemperature,
+  {f394b19e-e99b-447f-9887-c5dee3f8df98}, ! Handle
+  Schedule;                               ! Calculation Method
+
+OS:ComponentData,
+  {e69eca4f-be50-4be2-ae7a-40768197f91f}, ! Handle
+  Component Data 1,                       ! Name
+  {d4893a6b-b2d1-4bac-9912-1e08756ba9cc}, ! UUID
+  {7b6dc510-0b73-492a-a8be-6c65b4316392}, ! Version UUID
+  1364005949,                             ! Creation Timestamp
+  1364005949,                             ! Version Timestamp
+  {f394b19e-e99b-447f-9887-c5dee3f8df98}; ! Name of Object 1
+

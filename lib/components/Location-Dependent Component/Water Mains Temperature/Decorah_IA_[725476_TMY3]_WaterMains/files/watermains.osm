@@ -1,0 +1,9 @@
+
+OS:Version,
+  {d6f78156-3752-46c6-8828-2ebaf3773920}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:Site:WaterMainsTemperature,
+  {464bfd5f-0ace-4f2b-bae5-7a26b1032575}, ! Handle
+  Schedule;                               ! Calculation Method
+

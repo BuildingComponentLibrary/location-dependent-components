@@ -1,0 +1,21 @@
+
+OS:Version,
+  {5431a966-6bb0-45a6-8b8b-d98a62c422f6}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:Site:WaterMainsTemperature,
+  {77a38736-fa86-4494-8f48-dad2b33868b9}, ! Handle
+  Correlation,                            ! Calculation Method
+  ,                                       ! Temperature Schedule Name
+  10.3166666666667,                       ! Annual Average Outdoor Air Temperature {C}
+  10.1;                                   ! Maximum Difference In Monthly Average Outdoor Air Temperatures {deltaC}
+
+OS:ComponentData,
+  {c6148eb2-def6-4198-ae2a-517ee2bf6aca}, ! Handle
+  Component Data 1,                       ! Name
+  {a75e87dc-efe3-4ac3-8bcb-f24c053331af}, ! UUID
+  {f53fb681-be38-4a32-80e8-15d068f99c5b}, ! Version UUID
+  1364008132,                             ! Creation Timestamp
+  1364008132,                             ! Version Timestamp
+  {77a38736-fa86-4494-8f48-dad2b33868b9}; ! Name of Object 1
+

@@ -1,0 +1,98 @@
+<component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="component.xsd">
+ <schema_version/>
+ <name>Burke Lakefront_OH_[725245_TMY3]_WaterMains</name>
+ <uid>3c2f6e90-edc7-0131-7380-48e0eb16a403</uid>
+ <version_id>06d8cd25-520d-4ff6-87da-00cbbc1ebd74</version_id>
+ <xml_checksum/>
+ <display_name/>
+ <description>Water mains temperature correlation</description>
+ <modeler_description/>
+ <source>
+  <manufacturer>EnergyPlus Weather Statistics File</manufacturer>
+  <model/>
+  <serial_no/>
+  <year/>
+  <url>http://apps1.eere.energy.gov/buildings/energyplus/weatherdata_about.cfm</url>
+ </source>
+ <tags>
+  <tag>Location-Dependent Component.Water Mains Temperature</tag>
+ </tags>
+ <attributes>
+  <attribute>
+   <name>WMO</name>
+   <value>725245</value>
+   <datatype>float</datatype>
+  </attribute>
+  <attribute>
+   <name>City</name>
+   <value>Burke Lakefront</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>State</name>
+   <value>OH</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>Country</name>
+   <value>USA</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>Elevation</name>
+   <value>182.0</value>
+   <datatype>float</datatype>
+  </attribute>
+  <attribute>
+   <name>License</name>
+   <value>ASHRAE</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>Latitude</name>
+   <value>41.52</value>
+   <datatype>float</datatype>
+  </attribute>
+  <attribute>
+   <name>Longitude</name>
+   <value>-81.68</value>
+   <datatype>float</datatype>
+  </attribute>
+  <attribute>
+   <name>water main calculation</name>
+   <value>correlation</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>OpenStudio Type</name>
+   <value>OS:Site:WaterMainsTemperature</value>
+   <datatype>string</datatype>
+  </attribute>
+ </attributes>
+ <files>
+  <file>
+   <version>
+    <software_program>EnergyPlus</software_program>
+    <identifier>7.1.0</identifier>
+   </version>
+   <filename>watermains_v7.1.0.idf</filename>
+   <filetype>idf</filetype>
+  </file>
+  <file>
+   <version>
+    <software_program>OpenStudio</software_program>
+    <identifier>0.9.3</identifier>
+   </version>
+   <filename>watermains.osm</filename>
+   <filetype>osm</filetype>
+  </file>
+  <file>
+   <version>
+    <software_program>OpenStudio</software_program>
+    <identifier>0.9.3</identifier>
+   </version>
+   <filename>watermains.osc</filename>
+   <filetype>osc</filetype>
+  </file>
+ </files>
+</component>

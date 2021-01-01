@@ -1,0 +1,12 @@
+
+OS:Version,
+  {36e5d4da-2d01-4224-8bc2-39c186df5821}, ! Handle
+  0.9.3;                                  ! Version Identifier
+
+OS:Site:WaterMainsTemperature,
+  {07f26ac3-55fc-4438-80a9-0e30167cddc5}, ! Handle
+  Correlation,                            ! Calculation Method
+  ,                                       ! Temperature Schedule Name
+  5.60833333333333,                       ! Annual Average Outdoor Air Temperature {C}
+  23;                                     ! Maximum Difference In Monthly Average Outdoor Air Temperatures {deltaC}
+

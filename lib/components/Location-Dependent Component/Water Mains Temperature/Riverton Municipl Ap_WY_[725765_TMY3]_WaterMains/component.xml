@@ -1,0 +1,98 @@
+<component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="component.xsd">
+ <schema_version/>
+ <name>Riverton Municipl Ap_WY_[725765_TMY3]_WaterMains</name>
+ <uid>3b00f330-edc7-0131-72dc-48e0eb16a403</uid>
+ <version_id>99e0b40d-df4e-4670-b4b4-ebc5e749c2ac</version_id>
+ <xml_checksum/>
+ <display_name/>
+ <description>Water mains temperature correlation</description>
+ <modeler_description/>
+ <source>
+  <manufacturer>EnergyPlus Weather Statistics File</manufacturer>
+  <model/>
+  <serial_no/>
+  <year/>
+  <url>http://apps1.eere.energy.gov/buildings/energyplus/weatherdata_about.cfm</url>
+ </source>
+ <tags>
+  <tag>Location-Dependent Component.Water Mains Temperature</tag>
+ </tags>
+ <attributes>
+  <attribute>
+   <name>WMO</name>
+   <value>725765</value>
+   <datatype>float</datatype>
+  </attribute>
+  <attribute>
+   <name>City</name>
+   <value>Riverton Municipl Ap</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>State</name>
+   <value>WY</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>Country</name>
+   <value>USA</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>Elevation</name>
+   <value>1663.0</value>
+   <datatype>float</datatype>
+  </attribute>
+  <attribute>
+   <name>License</name>
+   <value>ASHRAE</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>Latitude</name>
+   <value>43.05</value>
+   <datatype>float</datatype>
+  </attribute>
+  <attribute>
+   <name>Longitude</name>
+   <value>-108.45</value>
+   <datatype>float</datatype>
+  </attribute>
+  <attribute>
+   <name>water main calculation</name>
+   <value>correlation</value>
+   <datatype>string</datatype>
+  </attribute>
+  <attribute>
+   <name>OpenStudio Type</name>
+   <value>OS:Site:WaterMainsTemperature</value>
+   <datatype>string</datatype>
+  </attribute>
+ </attributes>
+ <files>
+  <file>
+   <version>
+    <software_program>EnergyPlus</software_program>
+    <identifier>7.1.0</identifier>
+   </version>
+   <filename>watermains_v7.1.0.idf</filename>
+   <filetype>idf</filetype>
+  </file>
+  <file>
+   <version>
+    <software_program>OpenStudio</software_program>
+    <identifier>0.9.3</identifier>
+   </version>
+   <filename>watermains.osm</filename>
+   <filetype>osm</filetype>
+  </file>
+  <file>
+   <version>
+    <software_program>OpenStudio</software_program>
+    <identifier>0.9.3</identifier>
+   </version>
+   <filename>watermains.osc</filename>
+   <filetype>osc</filetype>
+  </file>
+ </files>
+</component>
